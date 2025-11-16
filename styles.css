@@ -105,3 +105,14 @@ footer{
     padding-bottom: 10px;
     font-size: 20px;
 }
+
+table{
+    /*margin-top: 10px; order matters*/
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 10px;
+}
+td, th{
+    border: 1px dashed black;
+    padding: 3px;
+}
