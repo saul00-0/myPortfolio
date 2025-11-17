@@ -15,13 +15,13 @@ header{
     top:0;
 }
 
-/*.logo img{
+.logo img{
     width: 40px;
 }
-*/
+
 header h1{
     text-align: center;
-    color:rgb(0, 0, 0);
+    color:rgb(203, 200, 200);
     flex: 1;
     font: 50px "Times New Roman";
     font-weight: 800;
@@ -33,7 +33,7 @@ header h1{
     list-style-type: none;
 }
 
-/*
+
 .socials{
 padding-left: 30px;
 display: flex;
@@ -44,17 +44,17 @@ gap: 20px;
 
 width: 30px;
 height: 30px;
+}
 
 
-*/
 
 .nav-bar a{
-    color:black;
+    color:rgb(203, 200, 200);
 
 }
 
 .current{
-        color:black;
+        color:rgb(32, 11, 189);
     }
 
 a:link{
