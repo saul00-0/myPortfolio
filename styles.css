@@ -116,3 +116,39 @@ td, th{
     border: 1px dashed black;
     padding: 3px;
 }
+
+
+.content form{
+
+width: fit-content;
+margin: auto;
+text-align: left;
+padding: 5px;
+
+}
+
+.content legend{
+    text-align: center;
+}
+
+.content fieldset{
+    padding: 3px;
+
+}
+
+.content label{
+    display: inline-block;
+    vertical-align: top;
+    width: 100px;
+}
+
+.content input, .content textarea{
+    margin-bottom: 5px;
+    width: 250px;
+    padding: 6px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+    
+}

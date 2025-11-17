@@ -8,7 +8,10 @@
         Contact
     </title>
 
-<link rel="shortcut icon" href="images/logo.png";
+<link rel="shortcut icon" href="images/logo.png";>
+
+
+<script src="contact.js" defer> </script>
 
 </head>
 
@@ -43,7 +46,27 @@
         </header>
          <div class="content">
 
-            saul.salinaslopez01@utrgv.edu
+            <form name = "contactme" onsubmit = "return validateform();"> 
+                <fieldset> 
+                <legend>Contact Me</legend> 
+                <label>Name: </label>
+                <input name="name" type="text"> <br/>
+
+                <label>Email: </label>
+                <input name = "email" type="email"> <br/>
+
+                <label>Phone: </label>
+                <input name = "phone" type="tel"> <br/>
+
+                <label>Message: </label>
+                <textarea name = "msg" rows="4" cols="50"></textarea> <br/>
+
+                <label></label>
+
+                <input type="submit" value="Send Message">
+
+                </fieldset>
+            </form>
 
         </div>
 
