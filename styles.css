@@ -8,7 +8,7 @@ header{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    background-color: oklab(85.30799999999999% -0.11451 -0.06122);
+    background-color: oklab(41.143% -0.00701 -0.00389);
     padding: 10px 30px;
 
     position: sticky;
@@ -21,7 +21,7 @@ header{
 */
 header h1{
     text-align: center;
-    color:darkred;
+    color:rgb(0, 0, 0);
     flex: 1;
     font: 50px "Times New Roman";
     font-weight: 800;
