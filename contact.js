@@ -3,9 +3,9 @@ function validateform()
     let uname = document.contactme.name.value;
     let email = document.contactme.email.value;
     let num = document.contactme.phone.value;
-    let msg = document.contactme.msg.value;
+    let message = document.contactme.msg.value;
 
-    if(uname == "" || email == "" || num == "" || msg == "")
+    if(uname == "" || email == "" || num == "" || message == "")
         alert("Please fill all the fields");
     else if(num.legth != 10)
         alert("Only provide a 10-digit number");
@@ -17,12 +17,12 @@ function validateform()
         alert("Loading mail client");
 
 
-        let subject = 'Message via Portfolio website from $(uname)';
+        let subject = 'Message via Portfolio website from ${uname}';
 
-        let body = 'From: $(email)\nPhone: $(num)\nMessage: $(message)\n'
+        let body = 'From: ${email}\nPhone: ${num}\nMessage: ${message}\n'
 
 
-        let mailtolink = 'mailto: saul.salinaslopez01@utrgv.edu?subject=$(encodeURIComponent(subject))&body=$(encodeURIComponent(body))';
+        let mailtolink = 'mailto: saul.salinaslopez01@utrgv.edu?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}';
 
         window.location.href = mailtolink;
     }
