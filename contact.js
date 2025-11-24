@@ -7,7 +7,7 @@ function validateform()
 
     if(uname == "" || email == "" || num == "" || msg == "")
         alert("Please fill all the fields");
-    else if(num.legth != 10)
+    else if(num.length != 10)
         alert("Only provide a 10-digit number");
     else if(!email.includes("gmail.com") && !email.includes("yahoo.com") && !email.includes("utrgv.edu") && !email.includes("outlook.com"))
         alert("Email address should be either Gmail, Yahoo, Outlook, or UTRGV")
@@ -17,12 +17,12 @@ function validateform()
         alert("Loading mail client");
 
 
-        let subject = 'Message via Portfolio website from $(uname)';
+        let subject = `Message via Portfolio website from $(uname)`;
 
-        let body = 'From: $(email)\nPhone: $(num)\nMessage: $(message)\n'
+        let body = `From: $(email)\nPhone: $(num)\nMessage: $(message)\n`
 
 
-        let mailtolink = 'mailto: saul.salinaslopez01@utrgv.edu?subject=$(encodeURIComponent(subject))&body=$(encodeURIComponent(body))';
+        let mailtolink = `mailto: saul.salinaslopez01@utrgv.edu?subject=$(encodeURIComponent(subject))&body=$(encodeURIComponent(body))`;
 
         window.location.href = mailtolink;
     }
