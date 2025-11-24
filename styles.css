@@ -1,5 +1,5 @@
 *{
-    margin:0px; /* property name : property value; */
+    margin:0px; 
     padding:0px;
 
 }
@@ -73,28 +73,11 @@ a:hover{
     width: 100%;
     padding-left: 30px;
     padding-bottom: 50px;
-
-    /*background-image: url(images/icon.png);
-    background-repeat: no repeat;
-    background-size: cover;
-    background-position: center;
-    */
 }
 
-/*
-.home-image{
-    border-style: dotted;
-    border-width: 2px;
-    border-radius: 5px;
-    border-color: chocolate;
-}
 
-*/
 
-/*.list-aboutme{
-    list-style-type: lower-roman;
-}
-*/
+
 
 footer{
     width: 100%;
@@ -107,14 +90,16 @@ footer{
 }
 
 table{
-    /*margin-top: 10px; order matters*/
+    
     border-collapse: collapse;
     margin: auto;
     margin-top: 10px;
+    text-align: center;
 }
 td, th{
     border: 1px dashed black;
     padding: 3px;
+    text-align: center;
 }
 
 
@@ -150,5 +135,5 @@ padding: 5px;
     border-radius: 4px;
     font-size: 14px;
     box-sizing: border-box;
-    
+
 }
